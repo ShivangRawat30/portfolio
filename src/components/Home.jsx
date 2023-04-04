@@ -25,17 +25,17 @@ const Home = () => {
           databases, including MongoDB.
         </p>
         <div>
-          <button
-            className="text-white font-bold group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#cfac83] hover:border-[#cfac83] "
-            to="work"
-          >
-            <Link to="work" smooth={true} offset={50} duration={500}>
+          <Link to="work" smooth={true} offset={50} duration={500}>
+            <button
+              className="text-white font-bold group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#cfac83] hover:border-[#cfac83] "
+              to="work"
+            >
               View Work
-            </Link>
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight className="ml-3" />
-            </span>
-          </button>
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-3" />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
