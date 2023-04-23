@@ -28,7 +28,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl text-white tracking-wider">
-                JS Application
+                Trilogs
               </span>
               <div className="pt-8 text-center">
                 <a href="https://trilogs.vercel.app/" target="_blank">
@@ -46,7 +46,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl text-white tracking-wider">
-                JS Application
+                Natours
               </span>
               <div className="pt-8 text-center">
                 <a href="https://natours-8idy.onrender.com/" target="_blank">
@@ -63,9 +63,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl text-white tracking-wider">
-                React Application
-              </span>
+              <span className="text-2xl text-white tracking-wider">React</span>
               <div className="pt-8 text-center">
                 <a
                   href="https://newapp-nu6c-bkhxw3yvu-shivangrawat30.vercel.app/"
@@ -86,7 +84,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl text-white tracking-wider">
-                JS application
+                Image resizer
               </span>
               <div className="pt-8 text-center">
                 <a href="https://resize-image-one.vercel.app/" target="_blank">
@@ -104,7 +102,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl text-white tracking-wider">
-                JS Application
+                Translator
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -126,7 +124,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl text-white tracking-wider">
-                React Application
+                Todo app
               </span>
               <div className="pt-8 text-center">
                 <a href="https://todolist-six-weld.vercel.app/" target="_blank">
