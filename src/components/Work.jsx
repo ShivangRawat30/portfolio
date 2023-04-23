@@ -5,6 +5,8 @@ import Translator from "../assets/projects/Translator.png";
 import Scramble from "../assets/projects/Scramble.png";
 import Piano from "../assets/projects/Piano.png";
 import Todo from "../assets/projects/Todo.png";
+import social from "../assets/projects/social.png";
+import natours from "../assets/projects/natours.png";
 
 const Work = () => {
   return (
@@ -33,6 +35,42 @@ const Work = () => {
                   href="https://newapp-nu6c-bkhxw3yvu-shivangrawat30.vercel.app/"
                   target="_blank"
                 >
+                  <button className="text-center rounded-lg px-4 py-3 m-2  text-gray-700 font-bold text-2xl">
+                    Visit
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${social})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl text-white tracking-wider">
+                JS Application
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://trilogs.vercel.app/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2  text-gray-700 font-bold text-2xl">
+                    Visit
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${natours})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl text-white tracking-wider">
+                JS Application
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://natours-8idy.onrender.com/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2  text-gray-700 font-bold text-2xl">
                     Visit
                   </button>
@@ -79,42 +117,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${Scramble})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl text-white tracking-wider">
-                JS Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://scramble-game-six.vercel.app/" target="_blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2  text-gray-700 font-bold text-2xl">
-                    Visit
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${Piano})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl text-white tracking-wider">
-                JS Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://playablepiano.vercel.app/" target="_blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2  text-gray-700 font-bold text-2xl">
-                    Visit
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+
           <div
             style={{ backgroundImage: `url(${Todo})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
