@@ -5,7 +5,7 @@ const WorkCard = ({link,name,visit}) => {
     <>
     <div
             style={{ backgroundImage: `url(${link})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div object-contain"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">

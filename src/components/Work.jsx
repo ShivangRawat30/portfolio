@@ -1,13 +1,11 @@
 import React from 'react';
-import ImgResizer from '../assets/projects/ImageResizer.png';
-import Finance from '../assets/projects/finance.png';
-import Translator from '../assets/projects/Translator.png';
-import Scramble from '../assets/projects/Scramble.png';
-import Piano from '../assets/projects/Piano.png';
-import Todo from '../assets/projects/Todo.png';
 import social from '../assets/projects/social.png';
 import natours from '../assets/projects/natours.png';
 import WorkCard from './WorkCard';
+import HealthCare from '../assets/projects/HealthCare.jpeg';
+import blog from '../assets/projects/blog.png';
+import Ecommerce from '../assets/projects/Ecommerce.png';
+import chat from '../assets/projects/chat.png'
 
 const Work = () => {
   return (
@@ -25,32 +23,32 @@ const Work = () => {
           <WorkCard
             link={social}
             name="Trilogs"
-            visit="https://trilogs.vercel.app/"
+            visit="https://github.com/ShivangRawat30/Trilogs"
           />
           <WorkCard
             link={natours}
             name="Natours"
-            visit="https://natours-8idy.onrender.com/"
+            visit="https://github.com/ShivangRawat30/Natours1"
           />
           <WorkCard
-            link={Finance}
-            name="React"
-            visit="https://newapp-nu6c-bkhxw3yvu-shivangrawat30.vercel.app/"
+            link={HealthCare}
+            name="HealthCare-Web"
+            visit="https://github.com/ShivangRawat30/HealthCare-web"
           />
           <WorkCard
-            link={ImgResizer}
-            name="Image resizer"
-            visit="https://resize-image-one.vercel.app/"
+            link={Ecommerce}
+            name="LazyCart"
+            visit="https://github.com/ShivangRawat30/Lazy-Cart"
           />
           <WorkCard
-            link={Translator}
-            name="Translator"
-            visit="https://translator-roan-omega.vercel.app/"
+            link={blog}
+            name="Ehya"
+            visit="https://github.com/ShivangRawat30/Ehya"
           />
           <WorkCard
-            link={Todo}
-            name="Todo app"
-            visit="https://todolist-six-weld.vercel.app/"
+            link={chat}
+            name="ChatBot-GPT"
+            visit="https://github.com/ShivangRawat30/chat-app"
           />
         </div>
       </div>
