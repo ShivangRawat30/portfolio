@@ -1,19 +1,28 @@
 import React from "react";
-
-import HTML from "../assets/html.png";
-import CSS from "../assets/css.png";
+import SkillsCard from "./SkillsCard";
+import Ethereum from "../assets/Ethereum.png";
+import TypeScript from "../assets/TypeScript.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
-import GitHub from "../assets/github.png";
-import Tailwind from "../assets/tailwind.png";
+import Solidity from "../assets/Solidity.png";
+import NEXT from "../assets/NEXT.png";
+import Rust from "../assets/Rust.png";
 import Mongo from "../assets/mongo.png";
+import Solana from "../assets/Solana.png";
+import Anchor from "../assets/anchor.png";
+import HardHat from "../assets/Hardhat.png";
+import Cpp from "../assets/C++.png";
+import Redux from "../assets/redux.png";
+import Postman from "../assets/Postman.png";
+import Git from "../assets/Git.png";
+
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300 sm:h-full">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1100px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-[#cfac83]">
             Skills
@@ -25,73 +34,22 @@ const Skills = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img
-              className="w-20 mx-auto"
-              src={HTML}
-              alt="HTML icon"
-              srcset=""
-            />
-            <p className="my-4">HTML</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSS} alt="CSS icon" srcset="" />
-            <p className="my-4">CSS</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img
-              className="w-20 mx-auto"
-              src={JavaScript}
-              alt="JavaScript icon"
-              srcset=""
-            />
-            <p className="my-4">JavaScript</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img
-              className="w-20 mx-auto"
-              src={ReactImg}
-              alt="React icon"
-              srcset=""
-            />
-            <p className="my-4">React</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img
-              className="w-20 mx-auto"
-              src={Node}
-              alt="Node icon"
-              srcset=""
-            />
-            <p className="my-4">Node</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img
-              className="w-20 mx-auto"
-              src={GitHub}
-              alt="GitHub icon"
-              srcset=""
-            />
-            <p className="my-4">GitHub</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img
-              className="w-20 mx-auto"
-              src={Tailwind}
-              alt="Tailwind icon"
-              srcset=""
-            />
-            <p className="my-4">Tailwind</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img
-              className="w-20 mx-auto"
-              src={Mongo}
-              alt="Mongo icon"
-              srcset=""
-            />
-            <p className="my-4">Mongo</p>
-          </div>
+          <SkillsCard sr={Rust} name="Rust" />
+          <SkillsCard sr={Solana} name="Solana" />
+          <SkillsCard sr={Anchor} name="Anchor" />
+          <SkillsCard sr={JavaScript} name="JavaScript" />
+          <SkillsCard sr={TypeScript} name="TypeScript" />
+          <SkillsCard sr={ReactImg} name="React" />
+          <SkillsCard sr={NEXT} name="NEXT" />
+          <SkillsCard sr={Node} name="NodeJS" />
+          <SkillsCard sr={Mongo} name="MongoDB" />
+          <SkillsCard sr={Solidity} name="Solidity" />
+          <SkillsCard sr={Ethereum} name="Ethereum" />
+          <SkillsCard sr={HardHat} name="HardHat" />
+          <SkillsCard sr={Cpp} name="C++" />
+          <SkillsCard sr={Redux} name="Redux" />
+          <SkillsCard sr={Postman} name="Postman" />
+          <SkillsCard sr={Git} name="git" />
         </div>
       </div>
     </div>
