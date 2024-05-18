@@ -20,7 +20,7 @@ import Git from "../assets/Git.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300 sm:h-full">
+    <div name="skills" className="w-full h-auto bg-[#0a192f] text-gray-300 sm:h-full">
       {/* Container */}
       <div className="max-w-[1100px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
