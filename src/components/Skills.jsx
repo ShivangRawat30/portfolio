@@ -16,6 +16,7 @@ import Cpp from "../assets/C++.png";
 import Redux from "../assets/redux.png";
 import Postman from "../assets/Postman.png";
 import Git from "../assets/Git.png";
+import foundry from "../assets/foundry.png";
 
 
 const Skills = () => {
@@ -34,22 +35,18 @@ const Skills = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+          <SkillsCard sr={Solidity} name="Solidity" />
+          <SkillsCard sr={Ethereum} name="Ethereum" />
+          <SkillsCard sr={foundry} name="foundry" />
+          <SkillsCard sr={HardHat} name="HardHat" />
           <SkillsCard sr={Rust} name="Rust" />
           <SkillsCard sr={Solana} name="Solana" />
-          <SkillsCard sr={Anchor} name="Anchor" />
           <SkillsCard sr={JavaScript} name="JavaScript" />
           <SkillsCard sr={TypeScript} name="TypeScript" />
           <SkillsCard sr={ReactImg} name="React" />
-          <SkillsCard sr={NEXT} name="NEXT" />
           <SkillsCard sr={Node} name="NodeJS" />
           <SkillsCard sr={Mongo} name="MongoDB" />
-          <SkillsCard sr={Solidity} name="Solidity" />
-          <SkillsCard sr={Ethereum} name="Ethereum" />
-          <SkillsCard sr={HardHat} name="HardHat" />
           <SkillsCard sr={Cpp} name="C++" />
-          <SkillsCard sr={Redux} name="Redux" />
-          <SkillsCard sr={Postman} name="Postman" />
-          <SkillsCard sr={Git} name="git" />
         </div>
       </div>
     </div>

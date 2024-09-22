@@ -3,16 +3,24 @@ import React from "react";
 const WorkCard = ({ link, name, visit }) => {
   return (
     <>
-      <div
-        style={{ backgroundImage: `url(${link})`,backgroundSize: 'cover'  }}
-        className="shadow-lg shadow-[rgb(4,12,22)] hover:bg-orange group container rounded-md flex justify-center items-center mx-auto content-div bg-cover"
-      >
-        {/* Hover Effects */}
-        <div className="opacity-0 group-hover:opacity-100 duration-300">
-          <span className="text-2xl text-center text-white tracking-wider">{name}</span>
+      <div className=" flex justify-center my-3 mx-3 items-center w-[350px] h-[170px] border-[3px] border-black">
+        <div
+          style={{
+            backgroundImage: `url(${link})`,
+            backgroundSize: "cover",
+            filter: "blur(5px)",
+          }}
+          className=" w-[350px] h-[170px]"
+        ></div>
+        <div className="flex items-center justify-center flex-col z-100 absolute bg-transparent">
+          <div className="text-container">
+            <span className="text-2xl text-center text-white tracking-wider font-bold">
+              {name}
+            </span>
+          </div>
           <div className="pt-8 text-center">
             <a href={visit} target="_blank">
-              <button className="text-center rounded-lg px-4 py-3 m-2  text-gray-700 font-bold text-2xl cursor-pointer">
+              <button className="text-center rounded-lg px-4  text-[#ffffff] font-bold text-2xl cursor-pointer">
                 Visit
               </button>
             </a>
