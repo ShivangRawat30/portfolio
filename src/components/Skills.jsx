@@ -21,11 +21,11 @@ import foundry from "../assets/foundry.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-auto bg-[#0a192f] text-gray-300 sm:h-full">
+    <div name="skills" className="w-full h-auto bg-[#0a192f] text-gray-300 sm:h-full ">
       {/* Container */}
       <div className="max-w-[1100px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-[#cfac83]">
+          <p className="text-4xl font-bold inline border-b-4 border-[#cfac83] lg:text-6xl">
             Skills
           </p>
           <p className="py-4 text-xl">
