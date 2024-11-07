@@ -23,14 +23,7 @@ const Home = () => {
           />
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px] lg:max-w-[2000px] lg:text-xl lg:mt-10">
-          As a Blockchain/full stack developer, I possess a strong understanding of both
-          front-end, back-end and web3 technologies. I have experience working with a
-          variety of programming languages, including but not limited to
-          JavaScript, React, NextJS. On the front-end, I am proficient in developing
-          Secure Web3 Dapps using modern Technologies such as Rust, Anchor and Solidity, On
-          the back-end, I have experience with server-side programming using
-          technologies such as Node.js. I am also proficient in working with
-          databases, including MongoDB.
+        Let’s just say beyond code, I’m all about the good stuff in life. When I’m not deep into the world of tech, you’ll probably catch me hyped up watching a UFC fight (big Alex Pereira fan here!!) or glued to a crazy throwback basketball game, Stephen Curry is hands down my most favourite player. Basketball was my life back in school, I was the team captain and went all in with every game, and the passion never really left. I’ve also got this deep-rooted thing for mountains. Growing up with my roots in the hills, I’ve always felt a special connection to those peaks, and I’m always down for a good trek. There’s something about the quiet, the views, the challenge, it’s unbeatable.
         </p>
         <div className="lg:mt-10">
           <Link to="work" smooth={true} offset={50} duration={500}>

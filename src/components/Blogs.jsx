@@ -12,7 +12,7 @@ const Blogs = () => {
             </p>
             <p className="py-4 text-xl">
               {" "}
-              These are the Blog's I've written
+              These are the Blogs I've written
             </p>
           </div>
   

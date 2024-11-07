@@ -14,13 +14,13 @@ const WorkCard = ({ link, name, visit }) => {
         ></div>
         <div className="flex items-center justify-center flex-col z-100 absolute bg-transparent">
           <div className="text-container">
-            <span className="text-2xl text-center text-white tracking-wider font-bold">
+            <span className="text-2xl text-center text-[#CFAC83] tracking-wider font-bold">
               {name}
             </span>
           </div>
           <div className="pt-8 text-center">
             <a href={visit} target="_blank">
-              <button className="text-center rounded-lg px-4  text-[#ffffff] font-bold text-2xl cursor-pointer">
+              <button className="text-center rounded-lg px-4  text-[#CFAC83] font-bold text-2xl cursor-pointer">
                 Visit
               </button>
             </a>
