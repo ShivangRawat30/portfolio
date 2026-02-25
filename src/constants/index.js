@@ -1,4 +1,3 @@
-import Logo from "../assets/Logo.png";
 import Backend from "../assets/backend.png";
 
 export const Exp = [

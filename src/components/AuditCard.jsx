@@ -1,6 +1,6 @@
 import React from "react";
 
-const AuditCard = ({ protocol, platform, scope, findings, report }) => {
+const AuditCard = ({ protocol, platform, findings, report }) => {
   return (
     <div className="flex flex-col justify-between p-6 border border-[#cfac83]/30 hover:border-[#cfac83] transition-colors duration-300 bg-[#0d2137] rounded-sm h-full">
       <div>
@@ -12,7 +12,6 @@ const AuditCard = ({ protocol, platform, scope, findings, report }) => {
             {platform}
           </span>
         </div>
-        <p className="text-gray-400 text-sm leading-relaxed mb-4">{scope}</p>
         <div className="flex flex-wrap gap-2">
           {findings.map((f, i) => (
             <span

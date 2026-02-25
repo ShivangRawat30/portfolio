@@ -31,7 +31,7 @@ const BlogCard = ({ link, image, name, desc }) => {
         <Typography  className="mb-8 text-[#8892b0] font-normal">
          {desc}...
         </Typography>
-        <a href={link} target='_' className="inline-block">
+        <a href={link} target="_blank" rel="noreferrer" className="inline-block">
           <Button variant="text" className="flex items-center gap-2 text-gray-500">
             Learn More
             <svg
