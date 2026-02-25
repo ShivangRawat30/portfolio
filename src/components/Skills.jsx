@@ -6,18 +6,12 @@ import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
 import Solidity from "../assets/Solidity.png";
-import NEXT from "../assets/NEXT.png";
 import Rust from "../assets/Rust.png";
 import Mongo from "../assets/mongo.png";
 import Solana from "../assets/Solana.png";
-import Anchor from "../assets/anchor.png";
 import HardHat from "../assets/Hardhat.png";
 import Cpp from "../assets/C++.png";
-import Redux from "../assets/redux.png";
-import Postman from "../assets/Postman.png";
-import Git from "../assets/Git.png";
 import foundry from "../assets/foundry.png";
-
 
 const Skills = () => {
   return (

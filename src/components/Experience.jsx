@@ -5,12 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 
 import { Exp } from "../constants";
-// import { SectionWrapper } from "../hoc";
-import { styles } from "../styles";
-// import { textVariant } from "../utils/motion";
-
 import "react-vertical-timeline-component/style.min.css";
-
 
 // Experience Card
 const ExperienceCard = ({ experience }) => (
@@ -57,8 +52,7 @@ const ExperienceCard = ({ experience }) => (
 // Experience
 export const Experience = () => {
   return (
-    // <SectionWrapper idName="work">
-      <div name="experience" className="h-200vh bg-[#0a192f]">
+    <div name="experience" className="h-200vh bg-[#0a192f]">
         {/* Title */}
         <motion.div className="max-w-[1200px] mb-10 mx-auto p-4 flex flex-col justify-center w-full h-full">
           <div>
@@ -78,6 +72,5 @@ export const Experience = () => {
           </VerticalTimeline>
         </div>
       </div>
-    // </SectionWrapper>
   );
 };

@@ -65,9 +65,7 @@ const Audit = () => {
           <AuditCard
             protocol="MORE"
             platform="Github"
-            findings={[
-              // { label: "2 Medium", style: "border-orange-400/50 text-orange-300" },
-            ]}
+            findings={[]}
             report="https://github.com/Bizarro0x13"
           />
         </div>
