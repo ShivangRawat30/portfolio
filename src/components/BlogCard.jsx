@@ -17,7 +17,7 @@ const BlogCard = ({ link, image, name, desc }) => {
       >
         <img
           src={image}
-          alt="card-image"
+          alt="blog cover"
           className="h-full w-full object-cover"
         />
       </CardHeader>
