@@ -211,7 +211,7 @@ const Navbar = () => {
               href="https://app.luminpdf.com/viewer/642c3a2a6853c4eac39b25e6"
               target="_blank"
             >
-              Resume <BsFillPersonLinesFill size={30} />
+              Resume <BsFillPersonLinesFill size={30} /> 
             </a>
           </li>
         </ul>
