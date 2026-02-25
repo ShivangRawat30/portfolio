@@ -26,8 +26,6 @@ const AuditCard = ({ protocol, platform, findings, report }) => {
       <div className="mt-6">
         <a
           href={report}
-          target="_blank"
-          rel="noreferrer"
           className="inline-flex items-center gap-2 text-sm font-semibold text-[#cfac83] hover:text-white transition-colors duration-200 border-b border-[#cfac83]/40 hover:border-white pb-0.5"
         >
           View Report
