@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/Logo.png";
 import { Link } from "react-scroll";
-import { BsTwitterX } from "react-icons/bs";
+import { BsXCircle } from "react-icons/bs";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -35,6 +35,11 @@ const Navbar = () => {
         <li>
           <Link to="work" smooth={true} offset={50} duration={500}>
             Projects
+          </Link>
+        </li>
+        <li>
+          <Link to="audit" smooth={true} offset={50} duration={500}>
+            Audits
           </Link>
         </li>
         <li>
@@ -88,7 +93,7 @@ const Navbar = () => {
                 href="https://x.com/shivangrawaat"
                 target="_blank"
               >
-                Twitter <BsTwitterX size={30} />
+                Twitter <FaTwitter size={30} />
               </a>
             </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
@@ -149,6 +154,17 @@ const Navbar = () => {
         <li className="py-6 text-4xl">
           <Link
             onClick={handleClick}
+            to="audit"
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Audits
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleClick}
             to="contact"
             smooth={true}
             offset={50}
@@ -186,7 +202,7 @@ const Navbar = () => {
               href="https://x.com/shivangrawaat"
               target="_blank"
             >
-              Twitter <BsTwitterX size={30} />
+              Twitter <FaTwitter size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">

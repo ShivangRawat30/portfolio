@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import {Experience} from "./components/Experience";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import Audit from "./components/Audit";
 import Contact from "./components/Contact";
 import Blogs from "./components/Blogs";
 
@@ -12,8 +13,9 @@ function App() {
       <Navbar />
       <Home />
       <Experience />
-      <Skills />
+      <Audit />
       <Work />
+      <Skills />
       <Blogs />
       <Contact />
     </div>
