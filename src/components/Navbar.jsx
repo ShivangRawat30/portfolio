@@ -71,8 +71,6 @@ const Navbar = () => {
               <a
                 className="flex justify-between items-center w-full text-gray-300"
                 href="https://www.linkedin.com/in/shivangrawat30/"
-                target="_blank"
-                rel="noreferrer"
               >
                 LinkedIn <FaLinkedin size={30} />
               </a>
@@ -81,8 +79,6 @@ const Navbar = () => {
               <a
                 className="flex justify-between items-center w-full text-gray-300"
                 href="https://github.com/ShivangRawat30"
-                target="_blank"
-                rel="noreferrer"
               >
                 Github <FaGithub size={30} />
               </a>
@@ -91,8 +87,6 @@ const Navbar = () => {
               <a
                 className="flex justify-between items-center w-full text-gray-300"
                 href="https://x.com/shivangrawaat"
-                target="_blank"
-                rel="noreferrer"
               >
                 Twitter <FaTwitter size={30} />
               </a>
@@ -101,8 +95,6 @@ const Navbar = () => {
               <a
                 className="flex justify-between items-center w-full text-gray-300"
                 href="https://app.luminpdf.com/viewer/642c3a2a6853c4eac39b25e6"
-                target="_blank"
-                rel="noreferrer"
               >
                 Resume <BsFillPersonLinesFill size={30} />
               </a>
@@ -184,7 +176,6 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/shivangrawat30/"
-              target="_blank"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -193,7 +184,6 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/ShivangRawat30"
-              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
@@ -202,7 +192,6 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://x.com/shivangrawaat"
-              target="_blank"
             >
               Twitter <FaTwitter size={30} />
             </a>
@@ -211,7 +200,6 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://app.luminpdf.com/viewer/642c3a2a6853c4eac39b25e6"
-              target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} /> 
             </a>
